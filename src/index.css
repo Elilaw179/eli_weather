@@ -7,14 +7,22 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
+body{
+  background: #e2d4ff;
+}
 
 .app{
-  /* min-height: 100vh;
-  background: #e2d4ff;
-  padding: 200px; */
   margin-top: 200px;
+ 
 }
+
+
+
+@media (max-width:768px) {
+  .app{
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }}
 
 
 

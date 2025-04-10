@@ -1,3 +1,5 @@
+
+
 .weather {
   width: 700px;
   margin-top: 5rem;
@@ -81,6 +83,7 @@
 @media (max-width:768px) {
   .weather{
     width: 500px;
+    
   }
 }
 
@@ -99,3 +102,29 @@
   }
 }
 
+
+
+
+@media (max-width:405px) {
+ 
+  .col span{
+    font-size:  12px !important;
+   
+  }
+
+  .col p{
+font-size: 15px;
+  }
+ .weather-icon{
+  width: 100px;
+ }
+
+ .temperature{
+  font-size: 30px;
+ }
+
+ .location{
+  font-size: 30px;
+ }
+  
+  }
